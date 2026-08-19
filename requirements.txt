@@ -1,19 +1,18 @@
-pytorch-lightning==2.1.2
-gradio==3.41.2
-huggingface-hub
+gradio
+diffusers
+transformers
 einops
 omegaconf
-torchmetrics
-webdataset
-accelerate
-tensorboard
-PyMCubes
+pytorch-lightning
+huggingface-hub
 trimesh
 rembg
-transformers==4.34.1
-diffusers==0.20.2
-bitsandbytes
 imageio[ffmpeg]
-xatlas
-plyfile
-git+https://github.com/NVlabs/nvdiffrast/
+Pillow
+einops
+numpy
+torchmetrics
+opencv-python-headless
+# Note: Do NOT attempt to build `pytorch3d` or `xformers` from source in Colab.
+# Use the Colab install cell provided in COLAB_INSTALL.md to install prebuilt wheels compatible
+# with the Colab CUDA + PyTorch combination.
